@@ -1,6 +1,38 @@
-Write a program that displays on the screen the numbers from 1 to N, where N is an integer provided by the user. However, for multiples of 3, instead of displaying the number, you should display "Fizz," and for multiples of 5, you should display "Buzz." For numbers that are multiples of both 3 and 5, display "FizzBuzz." The program should print each number or word on a new line.
+# FizzBuzz
 
-STEPS:
-1-Run npm install
-2-Run npm test.
-3- That´s all
+## Description
+
+FizzBuzz is a simple JavaScript program that takes an integer as input and follows the FizzBuzz game rules:
+
+- If the number is a multiple of 3, it returns "Fizz."
+- If the number is a multiple of 5, it returns "Buzz."
+- If the number is a multiple of both 3 and 5, it returns "FizzBuzz."
+- Otherwise, it returns the number itself as a string.
+
+## Usage
+
+You can use this program by calling the `FizzBuzz` function and passing an integer as an argument. It will return the appropriate FizzBuzz result as described above.
+
+Example:
+
+```javascript
+const result = FizzBuzz(15);
+console.log(result); // Output: "FizzBuzz"
+
+This project includes unit tests using Jest to ensure the correctness of the FizzBuzz function. To run the tests, follow these steps:
+
+-Run npm install
+
+-Run the tests with npm test
+
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
+
+
+
+```
