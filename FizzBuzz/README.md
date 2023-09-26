@@ -11,28 +11,12 @@ FizzBuzz is a simple JavaScript program that takes an integer as input and follo
 
 ## Usage
 
-You can use this program by calling the `FizzBuzz` function and passing an integer as an argument. It will return the appropriate FizzBuzz result as described above.
-
-Example:
-
-```javascript
-const result = FizzBuzz(15);
-console.log(result); // Output: "FizzBuzz"
-
 This project includes unit tests using Jest to ensure the correctness of the FizzBuzz function. To run the tests, follow these steps:
 
--Run npm install
+- Run npm install
 
--Run the tests with npm test
-
+- Run the tests with npm test
 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-
-
-
-
-```
